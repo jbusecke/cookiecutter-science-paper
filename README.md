@@ -92,7 +92,7 @@ $ ./scripts/setup.sh
 Then download the data from zenodo with
 
 ```bash
-$ ./script/download_zenodo_files.sh
+$ ./scripts/download_zenodo_files.sh
 ```
 > It is important to execute these scripts from the root directory
 
