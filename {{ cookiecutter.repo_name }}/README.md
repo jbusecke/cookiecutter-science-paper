@@ -2,7 +2,8 @@
 ==============================
 [![Build Status](https://travis-ci.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name.lower().replace(' ', '_') }}.svg?branch=master)](https://travis-ci.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name.lower().replace(' ', '_') }})
 [![codecov](https://codecov.io/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name.lower().replace(' ', '_') }}/branch/master/graph/badge.svg)](https://codecov.io/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name.lower().replace(' ', '_') }})
-{% if cookiecutter.open_source_license == 'MIT' %}[![License:MIT](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flt-square)](https://opensource.org/licenses/MIT){% elif cookiecutter.open_source_license == 'BSD-3-Clause' %}[![License:BSD-3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-lightgray.svg?style=flt-square)](https://opensource.org/licenses/BSD-3-Clause)
+{% if cookiecutter.open_source_license == 'MIT' %}[![License:MIT](https://img.shields.io/badge/License-MIT-lightgray.svg?style=flt-square)](https://opensource.org/licenses/MIT){% elif cookiecutter.open_source_license == 'BSD-3-Clause' %}[![License:BSD-3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-lightgray.svg?style=flt-square)](https://opensource.org/licenses/BSD-3-Clause){% endif %}
+[![Zenodo:Data](https://img.shields.io/badge/Zenodo:Data-10.5281/zenodo.{{cookiecutter.zenodo_data_id}}-<COLOR>.svg)](https://zenodo.org/record/{{cookiecutter.zenodo_data_id}})
 
 Code repository to reproduce results from {{cookiecutter.author_list}} {{cookiecutter.year}} published in {{cookiecutter.journal}}
 
