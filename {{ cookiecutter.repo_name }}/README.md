@@ -14,6 +14,7 @@ $ ./scripts/download_zenodo_files.sh
 ```
 > It is important to execute these scripts from the root directory
 
+
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://github.com/jbusecke/cookiecutter-science-paper">cookiecutter science paper template</a>.</small></p>
